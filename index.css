@@ -1,0 +1,192 @@
+/* sections */
+body {
+    margin: 0 auto;
+    font-family: 'Smythe', cursive;
+    width: 600px;    
+}
+
+header {
+    background-image: url(hamburguer.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    height: 100px;
+    padding: 46px;
+    margin-bottom: 60px;      
+}
+
+.container{
+    display: flex;
+    margin-left: 46px;
+    margin-right: 46px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #D2D2D2;
+    margin-bottom: 40px;
+    gap: 31px;
+    align-items: center;
+}
+
+.food-choice{
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-bottom: 10px;
+}
+
+.order-menu{
+    display: flex;
+}
+
+.total{
+    display: flex;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-top: 30px;
+    padding-top: 10px
+}
+
+/* typograph */
+h1, p{
+    margin: 0;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 39px;
+}
+
+p{
+    font-size: 22px;
+}
+
+/* content */
+.emoji{
+    font-size: 80px;
+}
+
+.food, .total-price{
+    font-size: 28px;
+}
+
+.ingredients{
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-top: 8px;
+}
+
+.price{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.order-title{
+    text-align:  center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.order-price{
+    margin-left: auto;
+}
+
+/* buttons */
+.add-food{
+    font-size: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    color: #3C3C3C;
+}
+
+.complete-btn{
+    display: block;
+    font-size: 16px;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 508px;
+    margin: 0 auto;
+    padding: 18px 0;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.remove-btn{
+    border: none;
+    background: none;
+    color: #BBBBBB;
+    margin-left: 10px;
+}
+
+/* form */
+#form-container{
+    display: none; /* alterar para display block */
+    position: fixed;
+    width: 524px;
+    height: 542px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+input{
+    font-size: 20px;
+    width: 455px;
+    height: 71px;
+    margin-bottom: 20px;
+    padding-left: 26px;
+}
+
+#form-container p{
+    font-family: Verdana;
+    font-weight: 700;
+    margin: 47px 0;
+}
+
+.pay-btn{
+    display: block;
+    font-size: 20px;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 475px;
+    height: 71px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.thanks{
+    font-size: 32px;
+    color: #065F46;
+    text-align: center;
+    margin: 60px;
+}
+
+/* pop-up */
+#pop-up{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    color: #16DB99;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    padding: 15px;
+    background-color: #f1edea;
+    border-radius: 5px;
+}

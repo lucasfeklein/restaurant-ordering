@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Font-Family -->
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+            <header>
+                <h1>Jimmy's Diner</h1>
+                <p>The best Burgers and pizzas in town<p>
+            </header>
+            
+            <main>
+                <div id="food-menu"></div>
+                
+                <div id="order-container">
+                    <div id="order-title"></div>
+                    
+                    <div class="food-choice" id="food-choice"></div>           
+                    
+                    <div class="total" id="total-container"></div>
+                    
+                    <div id="complete-container"></div>
+                </div>
+                
+                <div id="form-container">
+                    <p>Enter card details</p>
+                    <form id="buyer-form">
+                        <input name="buyerName" type="text" placeholder="Enter your name" required>
+                        <input name="buyerCard" type="number" placeholder="Enter card number" required>
+                        <input name="buyerName" type="number" placeholder="Enter CVV" required>
+                        <button class="pay-btn" id="pay-btn">Pay</button>
+                    </form>
+                </div> 
+                
+                <div id="pop-up">Added to cart!</div>
+                
+            </main>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
